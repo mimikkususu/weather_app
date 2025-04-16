@@ -6,5 +6,15 @@ import { initialData } from './Data';
 import { InitData } from './InitData';
 
 export const AppProvider = (props) => {
-  return <></>;
+  const {children} = props;
+  const [state,dispatch] = useReducer(reducer,initialData)
+
+  return (
+    <DispatchContext.Provider value={dispatch}>
+      <StateContext.Provider value={state}>
+        <InitData />
+        {children}
+      </StateContext.Provider>
+    </DispatchContext.Provider>
+  );
 };

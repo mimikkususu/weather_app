@@ -51,6 +51,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export const WeatherAppBar = () => {
   const navigate = useNavigate();
   const [search, setSearch] = useState('');
+  
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
+
+  const handleKeyDown = (e) => {
+    if(e.key === 'Enter'){
+      navigate('/search?q='+search);
+    }
+  };
 
   return (
     <AppBar position="sticky">
@@ -73,6 +83,8 @@ export const WeatherAppBar = () => {
           <StyledInputBase
             placeholder="Search…"
             inputProps={{ 'aria-label': 'search' }}
+            onChange={handleChange}
+            onKeyDown={handleKeyDown}
           />
         </Search>
       </Toolbar>
