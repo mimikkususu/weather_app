@@ -1,46 +1,39 @@
-# Reactアプリ作成
-## お天気アプリ作成
+<div align='center'>
+  
+![header](https://capsule-render.vercel.app/api?type=rounded&height=300&color=gradient&text=weather%20app)
+ </div>
+<h1 align="center">名簿アプリケーションを作成しました。</h1>
 
-## 対象
-JavaScript+ゲーム開発コース修了  
-JavaScript発展レベル4修了  
-Reactレベル1基礎修了  
-Reactレベル2基礎修了  
-Reactレベル3基礎修了  
-Reactレベル4基礎修了  
-Reactレベル5基礎修了  
-Reactレベル6基礎修了  
+### このアプリケーションについて
+日本の天気をしれるアプリケーションを作成しました。天気のapiを使って、検索したら日本中の天気をしることができます。
 
-## 想定学習時間
-4時間程度 
+### 機能
+1.　ホーム画面
+ホーム画面では知りたい地域の最高低気温、天気を知ることができます。
 
-## 前提
-* JavaScript+ゲーム開発コース修了
-* JavaScriptレベル1
-* JavaScriptレベル2
-* JavaScriptレベル3
-* JavaScriptレベル4
-* オリジナルゲームゲーム開発
-* JavaScriptES2015
-* JavaScriptオブジェクト
-* JavaScriptレベル5
-* JavaScriptレベル6
-* オリジナルゲームゲーム開発
-* JavaScript発展レベル1
-* JavaScript発展レベル2
-* JavaScript発展レベル3
-* JavaScript発展レベル4
-* Reactレベル1
-* Reactレベル2
-* Reactレベル3
-* Reactレベル4
-* Reactレベル5
-* Reactレベル6
+2.　地域検索機能
+地域検索をすることでいろんな地域の天気情報を知ることができます。
 
-## 目標
-* Reactの基礎を理解する
-* Reactのアプリ作成
-* APIの利用
-* GitHubアカウントの作成
-* Netlityアカウント作成
-* Netlifyへデプロイ
+3.　地域選択
+主要地域は選択するだけで情報を取得できるようにしました。
+
+4．about
+aboutはこのアプリケーションの説明を入れました
+
+---
+
+<img src="images/base.png" width="500px">
+
+---
+
+<img src="images/input.png" width="500px">
+
+---
+
+<img src="images/detail.png" width="500px">
+
+---
+
+<img src="images/admin.png" width="500px">
+
+---
